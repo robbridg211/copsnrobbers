@@ -1,0 +1,91 @@
+#world {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0pt;
+    width: 100%;
+    height: 100%;
+
+}
+#world1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0pt;
+    width: 100%;
+    height: 100%;
+
+}
+.wall {
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.wall_small {
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+.coins {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('/images/moneyBag.png'); 
+    background-size: contain;
+}
+.coins_small {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('/images/moneyBag.png'); 
+    background-size: contain;
+}
+.blank {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    
+}
+.blank_small {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    
+}
+.character {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('/images/robber.png');
+    background-size: contain;
+}
+.character_small {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('/images/robber.png');
+    background-size: contain;
+}
+
+.cop {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('/images/cop_left.png');
+    background-size: contain;
+}
+.cop_small {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('/images/cop_left.png');
+    background-size: contain;
+}
